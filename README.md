@@ -28,7 +28,7 @@
 如果 **item_origin** 字段为 vndb，那么 game_price 就必定为空。  
 如果是其他几样，那么 patch_zh_date、patch_en_date 就必定为空。
 
-```postgresql
+```sql
 CREATE TABLE release_game_2021
 (
     id              serial       NOT NULL,
